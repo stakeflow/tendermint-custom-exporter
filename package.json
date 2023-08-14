@@ -1,0 +1,20 @@
+{
+    "name": "tendermint-exporter",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "node ./index.js"
+    },
+    "author": "Sergey.Mitk <team@stakeflow.io>",
+    "license": "",
+    "dependencies": {
+        "axios": "^0.26.0",
+        "dotenv": "^10.0.0",
+        "express": "^4.17.1",
+        "prom-client": "^11.5.3"
+    },
+    "devDependencies": {
+        "eslint": "^8.10.0"
+    }
+}
